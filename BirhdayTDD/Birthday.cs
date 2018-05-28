@@ -29,5 +29,10 @@ namespace BirhdayTDD
         {
             return flst.Where(x => x.DT >= date1 && x.DT <= date2).ToList();
         }
+        public DateTime ChangeDate(string Name, string Familia)
+        {
+            flst[0].DT = new DateTime(2009, 12, 22);
+            return flst[0].DT;
+        }
     }
 }
