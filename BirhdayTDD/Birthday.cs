@@ -27,6 +27,8 @@ namespace BirhdayTDD
         }
         public List<Friend> IntervalDate(DateTime date1, DateTime date2)
         {
+            if (date1 >= date2)
+                throw new ArgumentException("Error");
             return flst.Where(x => x.DT >= date1 && x.DT <= date2).ToList();
         }
         public DateTime ChangeDate(string Name, string Familia)
