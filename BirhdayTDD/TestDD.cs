@@ -16,5 +16,11 @@ namespace BirhdayTDD
             Birthday birthday = new Birthday();
             Assert.NotNull(birthday);
         }
+        [Test]
+        public void AddBirthdayDate()
+        {
+            Birthday birthday = new Birthday();
+            Assert.AreEqual(4, birthday.TotalCountFriends());
+        }
     }
 }
