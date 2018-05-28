@@ -1,1 +1,17 @@
 C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\bin\Debug\BirhdayTDD.exe.config
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\bin\Debug\NUnit3.TestAdapter.dll
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\bin\Debug\NUnit3.TestAdapter.pdb
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\bin\Debug\nunit.engine.dll
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\bin\Debug\nunit.engine.api.dll
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\bin\Debug\Mono.Cecil.dll
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\bin\Debug\BirhdayTDD.exe
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\bin\Debug\BirhdayTDD.pdb
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\bin\Debug\nunit.framework.dll
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\bin\Debug\nunit.framework.pdb
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\bin\Debug\nunit.framework.xml
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\obj\Debug\BirhdayTDD.csprojResolveAssemblyReference.cache
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\obj\Debug\BirhdayTDD.Form1.resources
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\obj\Debug\BirhdayTDD.Properties.Resources.resources
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\obj\Debug\BirhdayTDD.csproj.GenerateResource.Cache
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\obj\Debug\BirhdayTDD.exe
+C:\4\1\new\верификация и тестирование\BirhdayTDD\BirhdayTDD\obj\Debug\BirhdayTDD.pdb
