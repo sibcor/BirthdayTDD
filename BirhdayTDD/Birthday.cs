@@ -8,6 +8,15 @@ namespace BirhdayTDD
 {
     public class Birthday
     {
+        private List<Friend> flst;
+        public Birthday()
+        {
+            flst = new List<Friend>() { new Friend() {Name="Ivan", Familia="Ivanov", DT = new DateTime(2009,12,21)},
+                new Friend() { Name="Igor", Familia="Nikolaev",DT=new DateTime(2001,04,23)},
+                new Friend() { Name="Sergey", Familia="Olegov",DT=new DateTime(2004,08,13)},
+                new Friend() { Name="Fedor", Familia="Nijniy",DT=new DateTime(2007,11,23)},
+            };
+        }
         public int TotalCountFriends()
         {
             return 4;
@@ -15,6 +24,10 @@ namespace BirhdayTDD
         public DateTime CheckBirthday(string Name)
         {
             return new DateTime(2018, 05, 30);
+        }
+        public List<Friend> IntervalDate(DateTime date1, DateTime date2)
+        {
+            return flst.Where(x => x.DT >= date1 && x.DT <= date2).ToList();
         }
     }
 }
