@@ -42,5 +42,13 @@ namespace BirhdayTDD
             Birthday birthday = new Birthday();
             Assert.AreNotEqual(5, birthday.TotalCountFriends());
         }
+        [Test]
+        public void ChangeBirthdayDate()
+        {
+            Birthday birthday = new Birthday();
+            Friend friend = new Friend();
+            var lst = new List<Friend>();
+            Assert.AreEqual(new DateTime(2009,12,22), birthday.ChangeDate("Ivan", "Ivanov"));
+        }
     }
 }
