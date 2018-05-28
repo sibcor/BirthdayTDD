@@ -28,5 +28,12 @@ namespace BirhdayTDD
             Birthday birthday = new Birthday();
             Assert.AreEqual(new DateTime(2018, 05, 30), birthday.CheckBirthday("Petrov"));
         }
+        [Test]
+        public void CheckIntervalDate()
+        {
+            Birthday birthday = new Birthday();
+            var lst = new List<Friend>();
+            Assert.AreEqual(lst[0].Name = "Sidorov", birthday.IntervalDate(new DateTime(2018, 05, 25), new DateTime(2018, 06, 02)));
+        }
     }
 }
