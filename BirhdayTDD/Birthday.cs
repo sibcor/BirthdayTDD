@@ -19,7 +19,7 @@ namespace BirhdayTDD
         }
         public int TotalCountFriends()
         {
-            return 4;
+            return flst.Count;
         }
         public DateTime CheckBirthday(string Name)
         {
