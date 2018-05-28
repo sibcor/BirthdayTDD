@@ -12,5 +12,9 @@ namespace BirhdayTDD
         {
             return 4;
         }
+        public DateTime CheckBirthday(string Name)
+        {
+            return new DateTime(2018, 05, 30);
+        }
     }
 }
