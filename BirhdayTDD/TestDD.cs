@@ -22,5 +22,10 @@ namespace BirhdayTDD
             Birthday birthday = new Birthday();
             Assert.AreEqual(4, birthday.TotalCountFriends());
         }
+        public void CheckForName()
+        {
+            Birthday birthday = new Birthday();
+            Assert.AreEqual(new DateTime(2018, 05, 30), birthday.CheckBirthday("Petrov"));
+        }
     }
 }
