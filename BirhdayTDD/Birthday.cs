@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace BirhdayTDD
 {
-    class Birthday
+    public class Birthday
     {
+        public int TotalCountFriends()
+        {
+            return 4;
+        }
     }
 }
