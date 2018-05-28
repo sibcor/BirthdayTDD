@@ -50,5 +50,11 @@ namespace BirhdayTDD
             var lst = new List<Friend>();
             Assert.AreEqual(new DateTime(2009,12,22), birthday.ChangeDate("Ivan", "Ivanov"));
         }
+        [Test]
+        public void CheckThrows()
+        {
+            Birthday birthday = new Birthday();
+            Assert.Throws<ArgumentException>(() => birthday.IntervalDate(new DateTime(2028, 05, 25), new DateTime(2018, 06, 02)));
+        }
     }
 }
