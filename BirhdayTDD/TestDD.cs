@@ -33,7 +33,8 @@ namespace BirhdayTDD
         {
             Birthday birthday = new Birthday();
             var lst = new List<Friend>();
-            Assert.AreEqual(lst[0].Name = "Sidorov", birthday.IntervalDate(new DateTime(2018, 05, 25), new DateTime(2018, 06, 02)));
+            lst.Add(new Friend() { Name = "Ivan", Familia = "Ivanov", DT = new DateTime(2008, 12, 24) });
+            Assert.AreEqual(lst[0].Name, birthday.IntervalDate(new DateTime(2008, 05, 25), new DateTime(2018, 06, 02))[0].Name);
         }
     }
 }
